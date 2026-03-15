@@ -1,4 +1,3 @@
-import '../../models/api_response.dart';
 import '../../models/coupon.dart';
 import '../../models/my_notification.dart';
 import '../../models/order.dart';
@@ -6,10 +5,8 @@ import '../../models/poster.dart';
 import '../../models/product.dart';
 import '../../models/variant_type.dart';
 import '../../services/http_services.dart';
-import '../../utility/snack_bar_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart' hide Category;
-import 'package:get/get.dart';
 import '../../../models/category.dart';
 import '../../models/brand.dart';
 import '../../models/sub_category.dart';

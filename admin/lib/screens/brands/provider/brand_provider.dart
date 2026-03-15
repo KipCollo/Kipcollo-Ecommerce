@@ -33,7 +33,6 @@ class BrandProvider extends ChangeNotifier {
   //TODO: should complete submitBrand
 
 
-
   //TODO: should complete deleteBrand
 
   //? set data for update on editing

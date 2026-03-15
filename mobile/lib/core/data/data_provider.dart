@@ -17,34 +17,34 @@ import '../../utility/snack_bar_helper.dart';
 class DataProvider extends ChangeNotifier {
   HttpService service = HttpService();
 
-  List<Category> _allCategories = [];
-  List<Category> _filteredCategories = [];
+  final List<Category> _allCategories = [];
+  final List<Category> _filteredCategories = [];
   List<Category> get categories => _filteredCategories;
 
-  List<SubCategory> _allSubCategories = [];
-  List<SubCategory> _filteredSubCategories = [];
+  final List<SubCategory> _allSubCategories = [];
+  final List<SubCategory> _filteredSubCategories = [];
 
   List<SubCategory> get subCategories => _filteredSubCategories;
 
-  List<Brand> _allBrands = [];
-  List<Brand> _filteredBrands = [];
+  final List<Brand> _allBrands = [];
+  final List<Brand> _filteredBrands = [];
   List<Brand> get brands => _filteredBrands;
 
 
 
-  List<Product> _allProducts = [];
-  List<Product> _filteredProducts = [];
+  final List<Product> _allProducts = [];
+  final List<Product> _filteredProducts = [];
   List<Product> get products => _filteredProducts;
   List<Product> get allProducts => _allProducts;
 
 
-  List<Poster> _allPosters = [];
-  List<Poster> _filteredPosters = [];
+  final List<Poster> _allPosters = [];
+  final List<Poster> _filteredPosters = [];
   List<Poster> get posters => _filteredPosters;
 
 
-  List<Order> _allOrders = [];
-  List<Order> _filteredOrders = [];
+  final List<Order> _allOrders = [];
+  final List<Order> _filteredOrders = [];
   List<Order> get orders => _filteredOrders;
 
 

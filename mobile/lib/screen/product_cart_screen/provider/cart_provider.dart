@@ -8,8 +8,6 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:razorpay_flutter/razorpay_flutter.dart';
-import '../../../core/data/data_provider.dart';
-import '../../../models/api_response.dart';
 import '../../../utility/constants.dart';
 import '../../../utility/snack_bar_helper.dart';
 

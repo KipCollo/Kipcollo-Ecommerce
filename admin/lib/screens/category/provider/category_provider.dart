@@ -21,7 +21,7 @@ class CategoryProvider extends ChangeNotifier {
 
   CategoryProvider(this._dataProvider);
 
-  //TODO: should complete addCategory
+ //TODO: add to cart
 
   //TODO: should complete updateCategory
 
